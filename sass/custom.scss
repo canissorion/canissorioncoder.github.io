@@ -1,0 +1,342 @@
+@import  "../node_modules/bootstrap/scss/bootstrap";
+
+body {
+    background: #fcead5;
+    width: 100%;
+}
+
+.logo {
+    width: 60px;
+}
+
+#navegador {
+    margin-left: 10%;
+}
+
+#searchIcon {
+    margin-left: 7%;
+    color: #5f5959;
+}
+
+#searchInput {
+    width: 100px;
+    border-radius: 10px;
+    height: 25px;
+    box-shadow: 2px 2px 7px rgba(0,0,0,0.08);
+    border-style: solid;
+    border-color: rgba(249,216,177,0.24);
+    margin-left: 10px;
+}
+
+#cartIcon  {
+    margin-left: 10%;
+}
+
+#signIn{
+    color: #010101;margin-left: 20px;
+}
+
+#payButton {
+    margin-left: 5%;
+    width: 80px;
+    height: 35px;
+    font-size: 14px;
+    border-radius: 14px;
+    text-align: center;
+    background: #182a88;
+    border-style: none;
+}
+
+#bannerColumns {
+    margin-top: 2%;
+    margin-bottom: 5%;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+#colBanner {
+    width: 200px;
+    margin-top: 4%;
+}
+
+#fontTitulo {
+    font-family: 'Playfair Display', serif;
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#fontCuerpo {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#colInterno {
+    padding: 0px 5px;
+}
+
+.fa-check-circle {
+    color: #78c482;
+}
+
+.lista {
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+.comprar {
+    text-align: center;
+    margin-left: -3px;
+    margin-top: 10px;
+    width: 160px;
+    padding-left: 12px;
+    background: #ff7648;
+    border-radius: 25px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    border-style: none;
+}
+
+.imgCuatro {
+    width: 80%;
+}
+
+.img_diferentes {
+    width: 80%;
+    margin-top: 10px;
+}
+
+.container_uno {
+    max-width: none;
+    background: #ffffff;
+    padding-bottom: 5%;
+    padding-right: 70px;
+    padding-left: 70px;
+    padding-top: 20px;
+}
+
+.col_cards {
+    margin-top: 0px;
+}
+
+.col_card_interno {
+    margin-top: 25%;
+}
+
+.col_card_interno :hover {
+    animation: animate__flip;
+    animation-duration: 2s;
+}
+
+.card_modificada {
+    border-style: none;
+}
+
+.card_body_modificado {
+    background: #faeddd;
+    border-radius: 25px;
+    border-style: none;
+}
+
+.img_modificado {
+    width: 200px;
+    margin-top: -50%;
+    margin-left: -50px;
+}
+
+.text_modificado {
+    margin-top: 20px;
+}
+
+.font_titulos {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: left;
+}
+
+.col_productos{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 0px;
+    margin-top: 10%;
+}
+
+.col_diferentes{
+    margin-top: 9%;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    padding-top: 0px;
+}
+
+.row_products {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.img_consumidores {
+    width: 60%;
+}
+
+.container_newslatter {
+    max-width: none;
+    padding-right: 50px;
+    padding-left: 50px;
+    background: #ffffff;
+    padding-bottom: 30px;
+}
+
+.row_newslatter {
+    background: #f9ebd8;
+    border-radius: 20px;
+}
+
+.col_newslatter {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    width: 80%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.h1_newslatter {
+    text-align: center;
+    font-weight: 900;
+}
+
+.row_form{
+    width: 40%;
+    text-align: center;
+    margin-left: 30%;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px rgba(33,37,41,0.14);
+    border-style: none;
+}
+
+.ico_form {
+    padding-top: 0;
+    font-size: 20px;
+    color: #858789;
+    margin-top: 0;
+}
+
+.text_form {
+    text-align: left;
+    margin-top: 0px;
+    color: #858789;
+    padding-top: 15px;
+}
+
+.button_form {
+    margin-top: 8px;
+    background: #ff7648;
+    border-style: none;
+}
+
+.container_footer {
+    max-width: none;
+    color: rgb(33, 37, 41);
+    background: #f9f9f9;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.img_footer {
+    width: 200px;
+}
+
+@media (max-width: 600px){
+    .card_modificada{
+        padding-bottom: 30%;
+    }
+
+    #colBanner {
+        margin: auto;
+    }
+
+    .font_titulos{
+        font-size: 20px;
+    }
+
+    #navcol-1 {
+        padding-left: 40px;
+        background-color: white;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+
+    #payButton {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #signIn {
+        display: none;
+    }
+
+    .container_newslatter {
+        max-width: none;
+        padding-right: 50px;
+        padding-left: 50px;
+        background: #ffffff;
+        padding-bottom: 30px;
+    }
+    
+    .row_newslatter {
+        background: #f9ebd8;
+        border-radius: 20px;
+    }
+    
+    .col_newslatter {
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .h1_newslatter {
+        text-align: center;
+        font-weight: 900;
+        font-size: 30px;
+    }
+    
+    .row_form{
+        margin-left: -3px;
+        width: 100%;
+        text-align: center;
+        background: #ffffff;
+        border-radius: 10px;
+        box-shadow: 2px 2px 7px rgba(33,37,41,0.14);
+        border-style: none;
+    }
+    
+    .ico_form {
+        padding-top: 0;
+        font-size: 20px;
+        color: #858789;
+        margin-top: 0;
+    }
+    
+    .text_form {
+        text-align: center;
+        margin-top: 0px;
+        color: #858789;
+        padding-top: 15px;
+    }
+    
+    .button_form {
+        margin-top: 8px;
+        margin-bottom: 10px;
+        background: #ff7648;
+        border-style: none;
+    }
+}

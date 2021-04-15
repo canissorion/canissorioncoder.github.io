@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoderHouse SkinCare contact</title>
+
+    <link rel="stylesheet" href="./sass/custom.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,500">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-light navbar-expand-lg">
+            <div class="container-fluid">
+                <div class="col-xl">
+                    <img src="assets/img/logoproyecto2.png" class="logo" alt="skincare logo" title="Logo skincare">
+                </div>
+                <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="navbar-nav navbar-center" id="navegador">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="shop.html">Productos</a></li>
+                        <li class="nav-item"><a class="nav-link active"f href="contacto.html">Contacto</a></li>
+                    </ul><i class="fa fa-search" id="searchIcon"></i><input id="searchInput" type="search"><i class="fa fa-shopping-cart" id="cartIcon"></i><a href="#" id="signIn">Sign In</a><button class="btn btn-primary" type="button" id="payButton">Pagar</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container-sm">
+        <section class="mb-4">
+
+            <h2 class="h1-responsive font-weight-bold text-center my-4">Contacto</h2>
+            <p class="text-center w-responsive mx-auto mb-5">En CoderHouse Skincare estamos para ayudarte</p>
+        
+            <div class="row">
+        
+                <div class="col-md-9 mb-md-0 mb-5">
+                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+        
+                        <div class="row">
+        
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="name" name="name" class="form-control">
+                                    <label for="name" class="">Nombre</label>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="email" name="email" class="form-control">
+                                    <label for="email" class="">Email</label>
+                                </div>
+                            </div>
+        
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="subject" name="subject" class="form-control">
+                                    <label for="subject" class="">Sujeto</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+        
+                            <div class="col-md-12">
+        
+                                <div class="md-form">
+                                    <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                    <label for="message">Mensaje</label>
+                                </div>
+        
+                            </div>
+                        </div>
+        
+                    </form>
+        
+                    <div class="text-center text-md-left">
+                        <a class="btn btn-primary" onclick="">Enviar</a>
+                    </div>
+                    <div class="status"></div>
+                </div>
+
+                <div class="col-md-3 text-center">
+                    <ul class="list-unstyled mb-0">
+                        <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                            <p>Santiago, Chile</p>
+                        </li>
+        
+                        <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                            <p>+569 5090 4349</p>
+                        </li>
+        
+                        <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                            <p>hola@bcristi.cl</p>
+                        </li>
+                    </ul>
+                </div>
+        
+            </div>
+        
+        </section>
+    </div>
+    <div class="container container_footer mt-5">
+        <div class="row">
+            <div class="col-md-6 col-xl-3"><img class="img_footer" src="assets/img/logoproyecto2.png" ></div>
+            <div class="col-md-6 col-xl-9"></div>
+        </div>
+    </div>
+</body>
+</html>

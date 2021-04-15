@@ -1,0 +1,14 @@
+{
+  "name": "proyectofinal-coderhouse",
+  "version": "1.0.0",
+  "description": "Esta web es la suma de todo lo aprendido y trabajado durante el cursode html y css en coderhouse de la carrera Front-End",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Benjamin Cristi",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta3"
+  }
+}
